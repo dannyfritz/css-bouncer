@@ -1,0 +1,43 @@
+{
+  "name": "css-bouncer",
+  "version": "0.0.0",
+  "description": "Bouncer is a CSS Linter using CSS AST and a focus on pluggable rules. Bouncer keeps delinquents out of you CSS.",
+  "license": "MIT",
+  "author": {
+    "name": "Danny Fritz",
+    "email": "dannyfritz@gmail.com",
+    "url": "http://dannyfritz.com"
+  },
+  "main": "index.js",
+  "bin": "bin/cmd.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "stare": "npm-stare",
+    "test": "tape test/*.js"
+  },
+  "stare": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannyfritz/css-bouncer"
+  },
+  "homepage": "https://github.com/dannyfritz/css-bouncer",
+  "bugs": {
+    "url": "https://github.com/dannyfritz/css-bouncer/issues"
+  },
+  "keywords": [
+    "css",
+    "lint",
+    "linter",
+    "hint"
+  ],
+  "dependencies": {
+    "postcss": "^2.2.5"
+  },
+  "devDependencies": {
+    "npm-stare": "^1.0.2",
+    "tape": "^3.0.0"
+  }
+}
