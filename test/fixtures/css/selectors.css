@@ -1,0 +1,7 @@
+a {}
+.class {}
+.class .anotherClass {}
+.class .anotherClass .aThirdClass {}
+.class .anotherClass .aThirdClass .aFourth {}
+a a a a a {}
+a>a>a>a>a {}
