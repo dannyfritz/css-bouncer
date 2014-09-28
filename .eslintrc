@@ -13,7 +13,6 @@
 		"max-depth": [2, 2],
 		"max-params": [2, 4],
 		"max-statements": [1, 30],
-		"no-plusplus": [2],
-		"max-len": [1, 80, 4]
+		"no-plusplus": [2]
 	}
 }

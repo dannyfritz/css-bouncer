@@ -9,16 +9,30 @@
     "url": "http://dannyfritz.com"
   },
   "main": "index.js",
-  "bin": "bin/cmd.js",
+  "bin": {
+    "cssb": "bin/cmd.js",
+    "css-bouncer": "bin/cmd.js"
+  },
   "files": [
     "bin",
     "lib"
   ],
   "scripts": {
     "stare": "npm-stare",
-    "test": "tape test/*.js"
+    "check": "npm run lint && npm run test",
+    "lint": "eslint lib test",
+    "test": "tape test/*.js | tap-dot"
   },
-  "stare": {},
+  "stare": {
+    "check": {
+      "path": [
+        "lib",
+        "test",
+        "bin",
+        "index.js"
+      ]
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/dannyfritz/css-bouncer"
@@ -34,10 +48,13 @@
     "hint"
   ],
   "dependencies": {
+    "backbone-events-standalone": "^0.2.4",
+    "bluebird": "^2.3.4",
     "postcss": "^2.2.5"
   },
   "devDependencies": {
     "npm-stare": "^1.0.2",
+    "tap-dot": "^0.2.3",
     "tape": "^3.0.0"
   }
 }
