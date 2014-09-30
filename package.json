@@ -1,6 +1,6 @@
 {
   "name": "css-bouncer",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha",
   "description": "Bouncer is a CSS Linter using CSS AST and a focus on pluggable rules. Bouncer keeps delinquents out of you CSS.",
   "license": "MIT",
   "author": {
