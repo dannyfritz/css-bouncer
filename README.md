@@ -1,5 +1,7 @@
 # css-bouncer
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dannyfritz/css-bouncer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 A CSS Linter with rules as plugins. CSS Bouncer is a harness to run CSS rules.
 
